@@ -1,4 +1,4 @@
-function unio(fname)
+function h5_load(fname)
     info = h5info(fname);
     for i = 1:length(info.Datasets)
         v = info.Datasets(i).Name;
